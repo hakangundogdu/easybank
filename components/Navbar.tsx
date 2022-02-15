@@ -8,7 +8,7 @@ const Navbar = () => {
         <a href="/">
           <img src="/images/logo.svg" alt="Logo" />
         </a>
-        <div className=" flex justify-between space-x-4 text-secondary">
+        <div className=" flex justify-between space-x-8 text-secondary">
           <a className="  hover:text-primary" href="/">
             Home
           </a>
