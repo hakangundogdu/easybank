@@ -19,18 +19,16 @@ const Main = () => {
           </div>
         </section>
         <section>
-          <div>
-            <img
-              src="/images/image-mockups.png"
-              alt="mockups"
-              className="absolute -top-24 -right-32 z-10  "
-            />
-          </div>
+          <img
+            src="/images/image-mockups.png"
+            alt="mockups"
+            className="absolute -top-24 -right-32 z-10   "
+          />
 
           <img
             src="/images/bg-intro-desktop.svg"
             alt="Pattern"
-            className="absolute -top-64 -right-96 object-none object-bottom"
+            className="absolute -top-64 -right-96 "
           />
         </section>
       </main>
