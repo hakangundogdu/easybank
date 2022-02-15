@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ImageCard = (props) => {
+const ImageCard = (props: any) => {
   return (
     <div className=" group overflow-hidden rounded-lg bg-white">
       <div className="h-1/2 w-auto ">

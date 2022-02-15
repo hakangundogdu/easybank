@@ -1,6 +1,6 @@
 import React from 'react'
 
-const IconCard = (props) => {
+const IconCard = (props: any) => {
   return (
     <div className="group">
       <img
