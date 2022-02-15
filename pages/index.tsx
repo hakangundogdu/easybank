@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Easybank</title>
         <link rel="icon" href="images/favicon-32x32.png" />
       </Head>
       <Navbar />
