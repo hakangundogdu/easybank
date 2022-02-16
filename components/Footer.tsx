@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className=" mx-auto mt-6 flex h-full flex-col justify-between space-y-3 text-center font-light text-white md:mt-0 md:ml-24 md:space-y-0 md:text-left">
+        <div className=" mx-auto mt-6 flex h-full flex-col justify-between space-y-3 text-center font-light text-white md:mt-0 md:ml-32 md:space-y-0 md:text-left">
           <a className="  hover:text-green" href="/">
             About Us
           </a>
@@ -63,7 +63,7 @@ const Footer = () => {
             Blog
           </a>
         </div>
-        <div className=" mx-auto mt-3 flex h-full flex-col justify-between space-y-3 text-center font-light text-white md:mt-0 md:-ml-12 md:space-y-0 md:text-left">
+        <div className=" mx-auto mt-3 flex h-full flex-col justify-between space-y-3 text-center font-light text-white md:mt-0 md:-ml-32 md:space-y-0 md:text-left">
           <a className="  hover:text-green" href="/">
             Careers
           </a>
