@@ -2,11 +2,11 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between px-12 py-7 lg:px-32 ">
+    <nav className=" flex items-center justify-between  px-6 py-7 md:px-12 lg:px-32 ">
       <a href="/">
         <img src="/images/logo.svg" alt="Logo" />
       </a>
-      <div className=" flex justify-between space-x-8 text-secondary">
+      <div className="hidden justify-between space-x-8 text-secondary md:flex">
         <a
           className=" border-b-2 border-white transition duration-300 hover:border-b-2 hover:border-green hover:text-primary"
           href="/"
@@ -38,7 +38,7 @@ const Navbar = () => {
           Careers
         </a>
       </div>
-      <div className=" rounded-full bg-gradient-to-r from-green1 to-green2 py-2  px-6 text-white hover:bg-gradient-to-l ">
+      <div className=" hidden rounded-full bg-gradient-to-r from-green1 to-green2 py-2 px-6  text-white hover:bg-gradient-to-l md:block ">
         <a href="/">Request Invite</a>
       </div>
     </nav>

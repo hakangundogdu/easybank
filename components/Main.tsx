@@ -4,8 +4,8 @@ const Main = () => {
   return (
     <div>
       <main className="flex max-h-[90]  w-full bg-background1">
-        <section className=" flex w-full flex-col  justify-center py-60 pl-12 lg:w-2/5 lg:pl-32 ">
-          <h1 className="animate-fade text-6xl font-light text-primary">
+        <section className=" flex w-full flex-col items-center px-6 py-12 text-center md:items-start md:py-60 md:pl-32 md:text-left lg:w-2/5 ">
+          <h1 className="animate-fade text-5xl font-light text-primary md:text-6xl">
             Next generation digital banking
           </h1>
           <p className="my-6 animate-fade text-lg font-light text-secondary">

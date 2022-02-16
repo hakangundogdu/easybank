@@ -2,13 +2,13 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="  bg-primary py-16 px-40">
-      <div className=" flex  w-full flex-col items-center md:h-24 md:flex-row">
-        <div className="flex h-full flex-col justify-between">
+    <footer className="  px:6 bg-primary py-16 md:px-40">
+      <div className=" flex flex-col items-center md:h-24 md:flex-row">
+        <div className="flex h-full flex-col items-center justify-between md:items-start">
           <a href="/">
             <img src="/images/logo-white.svg" alt="Logo" />
           </a>
-          <div className=" flex items-center justify-between space-x-4">
+          <div className=" mt-6 flex items-center justify-between space-x-4">
             <svg
               className="fill-white hover:fill-green"
               xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className=" ml-24 flex h-full flex-col justify-between text-base font-light text-white">
+        <div className=" mx-auto mt-6 flex h-full flex-col justify-between space-y-3 text-center font-light text-white md:ml-24 md:space-y-0 md:text-base">
           <a className="  hover:text-green" href="/">
             About Us
           </a>
@@ -63,7 +63,7 @@ const Footer = () => {
             Blog
           </a>
         </div>
-        <div className=" ml-24 flex h-full flex-col justify-between text-base font-light text-white">
+        <div className=" mx-auto mt-3 flex h-full flex-col justify-between space-y-3 text-center font-light text-white md:ml-24 md:space-y-0 md:text-base">
           <a className="  hover:text-green" href="/">
             Careers
           </a>
@@ -74,11 +74,11 @@ const Footer = () => {
             Prvacy Policy
           </a>
         </div>
-        <div className=" ml-auto flex h-full flex-col items-end justify-between ">
+        <div className=" mt-6 flex  h-full flex-col items-center justify-between md:ml-auto md:items-end ">
           <div className="  rounded-full border-0 bg-gradient-to-r from-green1  to-green2 py-2 px-6 text-white hover:bg-gradient-to-l ">
             <a href="/">Request Invite</a>
           </div>
-          <p className="text-base font-light text-secondary">
+          <p className="mt-3 text-base font-light text-secondary">
             © Easybank. All Rights Reserved
           </p>
         </div>

@@ -13,7 +13,7 @@ const Features = () => {
           hub. Control your finances like never before.
         </p>
       </div>
-      <div className="justify-items mt-6 flex flex-col items-start md:flex-row md:space-x-12">
+      <div className="justify-items mt-6 flex flex-col items-center space-y-6 md:flex-row md:items-start md:space-y-0 md:space-x-12">
         <IconCard
           src="/images/icon-online.svg"
           title="Online Banking"
