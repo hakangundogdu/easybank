@@ -13,6 +13,7 @@ export default function Home() {
         <link rel="icon" href="images/favicon-32x32.png" />
       </Head>
       <Navbar />
+
       <Main />
       <Features />
       <Articles />
