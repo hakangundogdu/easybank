@@ -8,7 +8,7 @@ const Footer = () => {
           <a href="/">
             <img src="/images/logo-white.svg" alt="Logo" />
           </a>
-          <div className=" mt-6 flex items-center justify-between space-x-4">
+          <div className=" mt-6 flex items-center justify-between space-x-4 md:mt-0">
             <svg
               className="fill-white hover:fill-green"
               xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className=" mx-auto mt-6 flex h-full flex-col justify-between space-y-3 text-center font-light text-white md:ml-24 md:space-y-0 md:text-base">
+        <div className=" mx-auto mt-6 flex h-full flex-col justify-between space-y-3 text-center font-light text-white md:mt-0 md:ml-24 md:space-y-0 md:text-left">
           <a className="  hover:text-green" href="/">
             About Us
           </a>
@@ -63,7 +63,7 @@ const Footer = () => {
             Blog
           </a>
         </div>
-        <div className=" mx-auto mt-3 flex h-full flex-col justify-between space-y-3 text-center font-light text-white md:ml-24 md:space-y-0 md:text-base">
+        <div className=" mx-auto mt-3 flex h-full flex-col justify-between space-y-3 text-center font-light text-white md:mt-0 md:-ml-12 md:space-y-0 md:text-left">
           <a className="  hover:text-green" href="/">
             Careers
           </a>
@@ -74,11 +74,11 @@ const Footer = () => {
             Prvacy Policy
           </a>
         </div>
-        <div className=" mt-6 flex  h-full flex-col items-center justify-between md:ml-auto md:items-end ">
+        <div className=" mt-6 flex h-full flex-col items-center justify-between md:mt-0 md:ml-auto md:items-end ">
           <div className="  rounded-full border-0 bg-gradient-to-r from-green1  to-green2 py-2 px-6 text-white hover:bg-gradient-to-l ">
             <a href="/">Request Invite</a>
           </div>
-          <p className="mt-6 text-base font-light text-secondary">
+          <p className="mt-6 text-base font-light text-secondary md:mt-0">
             © Easybank. All Rights Reserved
           </p>
         </div>
