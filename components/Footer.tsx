@@ -78,7 +78,7 @@ const Footer = () => {
           <div className="  rounded-full border-0 bg-gradient-to-r from-green1  to-green2 py-2 px-6 text-white hover:bg-gradient-to-l ">
             <a href="/">Request Invite</a>
           </div>
-          <p className="mt-3 text-base font-light text-secondary">
+          <p className="mt-6 text-base font-light text-secondary">
             © Easybank. All Rights Reserved
           </p>
         </div>
