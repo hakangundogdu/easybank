@@ -3,18 +3,17 @@ import IconCard from './IconCard'
 
 const Features = () => {
   return (
-    <section className=" flex  w-full flex-col bg-background2 py-32 px-40">
+    <section className=" flex  w-full flex-col bg-background2 py-32 px-12 lg:px-32">
       <div>
         <h2 className="text-4xl font-light text-primary">
           Why choose Easybank?
         </h2>
         <p className="my-6 text-lg font-light text-secondary">
           We leverage Open Banking to turn your bank account into your financial
-          hub. <br />
-          Control your finances like never before.
+          hub. Control your finances like never before.
         </p>
       </div>
-      <div className="justify-items mt-6 flex space-x-24">
+      <div className="justify-items mt-6 flex flex-col items-start md:flex-row md:space-x-12">
         <IconCard
           src="/images/icon-online.svg"
           title="Online Banking"

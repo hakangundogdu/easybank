@@ -3,11 +3,11 @@ import ImageCard from './ImageCard'
 
 const Articles = () => {
   return (
-    <section className=" flex  w-full flex-col bg-background1 py-32 px-40">
+    <section className=" flex w-full flex-col bg-background1 py-32 px-40">
       <div>
         <h2 className="text-4xl font-light text-primary">Latest Articles </h2>
       </div>
-      <div className="justify-items mt-12 flex space-x-24">
+      <div className="justify-items mt-12 flex  flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-6 ">
         <ImageCard
           src="/images/image-currency.jpg"
           author="By Claire Robinson"
