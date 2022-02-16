@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer className="  bg-primary py-16 px-40">
-      <div className=" flex  h-24 w-full items-center">
+      <div className=" flex  w-full flex-col items-center md:h-24 md:flex-row">
         <div className="flex h-full flex-col justify-between">
           <a href="/">
             <img src="/images/logo-white.svg" alt="Logo" />
@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className=" ml-48 flex h-full flex-col justify-between text-base font-light text-white">
+        <div className=" ml-24 flex h-full flex-col justify-between text-base font-light text-white">
           <a className="  hover:text-green" href="/">
             About Us
           </a>
@@ -63,7 +63,7 @@ const Footer = () => {
             Blog
           </a>
         </div>
-        <div className=" ml-48 flex h-full flex-col justify-between text-base font-light text-white">
+        <div className=" ml-24 flex h-full flex-col justify-between text-base font-light text-white">
           <a className="  hover:text-green" href="/">
             Careers
           </a>

@@ -3,7 +3,7 @@ import ImageCard from './ImageCard'
 
 const Articles = () => {
   return (
-    <section className=" flex w-full flex-col bg-background1 py-32 px-40">
+    <section className=" flex w-full flex-col bg-background1 py-24 px-12 lg:px-32">
       <div>
         <h2 className="text-4xl font-light text-primary">Latest Articles </h2>
       </div>

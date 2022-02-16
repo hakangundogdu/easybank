@@ -3,7 +3,7 @@ import IconCard from './IconCard'
 
 const Features = () => {
   return (
-    <section className=" flex  w-full flex-col bg-background2 py-32 px-12 lg:px-32">
+    <section className=" flex  w-full flex-col bg-background2 py-24 px-12 lg:px-32">
       <div>
         <h2 className="text-4xl font-light text-primary">
           Why choose Easybank?
