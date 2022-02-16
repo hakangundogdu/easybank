@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav className=" flex items-center justify-between  px-6 py-7 md:px-12 lg:px-32 ">
+    <nav className="  flex items-center justify-between px-6 py-7 md:px-12 lg:px-32 ">
       <a href="/">
         <img src="/images/logo.svg" alt="Logo" />
       </a>

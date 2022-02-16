@@ -3,7 +3,7 @@ import React from 'react'
 const Main = () => {
   return (
     <div>
-      <main className="flex max-h-[90]  w-full bg-background1">
+      <main className=" flex max-h-[70] w-full flex-col-reverse bg-background1  md:flex-row">
         <section className=" flex w-full flex-col items-center px-6 py-12 text-center md:items-start md:py-60 md:pl-32 md:text-left lg:w-2/5 ">
           <h1 className="animate-fade text-5xl font-light text-primary md:text-6xl">
             Next generation digital banking
@@ -17,19 +17,20 @@ const Main = () => {
             <a href="/">Request Invite</a>
           </div>
         </section>
-        {/* <section className="relative ml-auto w-2/5">
+
+        <section className="relative ml-auto overflow-hidden  md:w-3/5 ">
           <img
             src="/images/image-mockups.png"
             alt="mockups"
-            className="object-none object-left-bottom   "
+            className="-mt-32 animate-fade md:absolute md:-right-32 md:-top-32 md:mt-0   "
           />
 
-          <img
+          {/* <img
             src="/images/bg-intro-desktop.svg"
             alt="Pattern"
-            className="absolute -top-64 -right-96 "
-          />
-        </section> */}
+            className="object-none  "
+          /> */}
+        </section>
       </main>
     </div>
   )
