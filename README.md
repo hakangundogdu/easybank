@@ -2,7 +2,7 @@
 
 - [Live](easybank-hakangundogdu.vercel.app/)
 
-<a href="https://hakangundogdu.github.io/easybank/">![NWS](/images/project.png)</a>
+![Easybank](/public/images/project.png)
 
 ### Deployed using [Vercel](https://vercel.com)
 
